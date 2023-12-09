@@ -1,0 +1,43 @@
+.home{
+    max-width: 960px;
+    margin: 0 auto;
+    &-swiper{
+        padding: 45px 0px;
+    }
+    &-search{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        h2{
+            color: #000;
+            font-family: Inter;
+            font-size: 32px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+        }
+        input{
+            width: 250px;
+            height: 45px;
+            border-radius: 10px;
+            border: 1px solid #F3F3F3;
+            background-image: url('/public/home/search.svg');
+            background-repeat: no-repeat;
+            background-position: 16px;
+            padding-left: 38px;
+            outline: none;
+            color: #C4C4C4;
+            font-family: Inter;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+    }
+    .all-sneakers{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 40px;
+        padding: 40px 0px;
+    }
+}

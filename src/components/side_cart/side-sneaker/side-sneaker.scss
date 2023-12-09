@@ -1,0 +1,49 @@
+.side-sneaker{
+    position: relative;
+    width: 325px;
+    height: 119px;
+    padding: 20px;
+    margin: 15px 30px;
+    border-radius: 20px;
+    border: 1px solid #F3F3F3;
+    background: #FFF;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    &-img{
+        img{
+            width: 70px;
+            height: 70px;
+        }
+    }
+    &-price{
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        h4{
+            width: 150px;
+            color: #000;
+            font-family: Inter;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+        h5{
+            color: #000;
+            font-family: Inter;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+        }
+    }
+    .remove{
+        cursor: pointer;
+        position: absolute;
+        bottom: 20px;
+        right: 20px;
+        width: 32px;
+        height: 32px;
+    }
+}

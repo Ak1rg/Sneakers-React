@@ -1,0 +1,59 @@
+.sneaker-order{
+    border-radius: 40px;
+    border: 1px solid #F3F3F3;
+    background: #FFF;
+    width: 210px;
+    height: 260px;
+    padding: 20px 30px 34px 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    transition: .4s;
+    &-img{
+        position: relative;
+        img:first-child{
+            width: 133px;
+            height: 112px;
+        }
+    }
+    h4{
+        width: 150px;
+        color: #000;
+        font-family: Inter;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+    .sneaker-order-price{
+        display: flex;
+        justify-content: space-between;
+        div{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            p{
+                color: #BDBDBD;
+                font-family: Inter;
+                font-size: 11px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+                text-transform: uppercase;
+            }
+            h5{
+                color: #000;
+                font-family: Inter;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+            }
+        }
+    }
+}
+.sneaker-order:hover{
+    transform: translateY(-10px);
+    transition: .4s;
+    box-shadow: 0px 14px 30px 0px rgba(0, 0, 0, 0.05);
+}

@@ -1,0 +1,126 @@
+.follow{
+    padding: 45px 60px;
+    &_title{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        h3{
+            color: #000;
+            font-family: Inter;
+            font-size: 32px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+        }
+    }
+    &_sneakers{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 40px;
+        margin-top: 30px;
+        .sneaker{
+            border-radius: 40px;
+            border: 1px solid #F3F3F3;
+            background: #FFF;
+            width: 210px;
+            height: 260px;
+            padding: 20px 30px 34px 30px;
+            display: flex;
+            flex-direction: column;
+            gap: 14px;
+            transition: .4s;
+            &-img{
+                position: relative;
+                img:first-child{
+                    width: 133px;
+                    height: 112px;
+                }
+                img:last-child{
+                    cursor: pointer;
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 32px;
+                    height: 32px;
+                }
+            }
+            h4{
+                width: 150px;
+                color: #000;
+                font-family: Inter;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+            }
+            .sneaker-price{
+                display: flex;
+                justify-content: space-between;
+                div{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    p{
+                        color: #BDBDBD;
+                        font-family: Inter;
+                        font-size: 11px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: normal;
+                        text-transform: uppercase;
+                    }
+                    h5{
+                        color: #000;
+                        font-family: Inter;
+                        font-size: 14px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: normal;
+                    }
+                }
+                img{
+                    cursor: pointer;
+                    width: 32px;
+                    height: 32px;
+                }
+            }
+        }
+        .sneaker:hover{
+            transform: translateY(-10px);
+            transition: .4s;
+            box-shadow: 0px 14px 30px 0px rgba(0, 0, 0, 0.05);
+        }
+        .follow_nothing{
+            width: 100%;
+            height: 50vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 15px;
+            img{
+                width: 70px;
+                height: 70px;
+                flex-shrink: 0;
+            }
+            h3{
+                color: #000;
+                text-align: center;
+                font-family: Inter;
+                font-size: 24px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: normal;
+            }
+            p{
+                color: #000;
+                text-align: center;
+                font-family: Inter;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+            }
+        }
+    }
+}
